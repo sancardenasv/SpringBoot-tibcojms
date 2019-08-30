@@ -1,0 +1,16 @@
+logging:
+  config: /config/logback-spring.xml
+  level:
+    org.springframework.security: INFO
+server:
+  port: 8090
+jms:
+  tibco:
+    initialcnf: 'com.tibco.tibjms.naming.TibjmsInitialContextFactory'
+    jndiProviderUrl: 'CHANGEME'
+    sslEnableVerifyHost: false
+    connectionFactory: 'CHANGEME'
+    queueName: 'CHANGEME'
+    credentials:
+      user: 'CHANGEME'
+      password: 'CHANGEME'

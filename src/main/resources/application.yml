@@ -1,0 +1,3 @@
+spring:
+  #default profile
+  profiles.active: development
